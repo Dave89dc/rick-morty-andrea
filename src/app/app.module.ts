@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { CharactersPageModule } from './components/characters-page/characters-page.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     HttpClientModule,
     CharactersPageModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HeaderComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
